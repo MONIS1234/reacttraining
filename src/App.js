@@ -62,17 +62,15 @@
 //   }
 // }
 import React from 'react'
-import PropsChildrenex from './propexample/PropsChildrenex'
-import SubChildProps from './propexample/SubChildProps'
+import CBCStateEX from './stateexamples/CBCStateEX';
+// import PropsChildrenex from './propexample/PropsChildrenex'
+// import SubChildProps from './propexample/SubChildProps'
 
 
  const App = () => {
   return (
     <div>
-      <PropsChildrenex username="Monis" company="Meta">
-        <h1>This data is passing as a props children to child component</h1>
-        <SubChildProps/>
-      </PropsChildrenex>
+      <CBCStateEX/>
     </div>
   )
 }
