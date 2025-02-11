@@ -61,17 +61,29 @@
 //     )
 //   }
 // }
-import React from 'react'
-import CBCStateEX from './stateexamples/CBCStateEX';
+// import React from 'react'
+// import CBCStateEX from './stateexamples/CBCStateEX';
 // import PropsChildrenex from './propexample/PropsChildrenex'
 // import SubChildProps from './propexample/SubChildProps'
 
 
- const App = () => {
+//  const App = () => {
+//   return (
+//     <div>
+//       <CBCStateEX/>
+//     </div>
+//   )
+// }
+
+// export default App;
+import React from 'react'
+import UserEffectEX from './Hooks/UserEffectEX'
+
+export default function App() {
   return (
     <div>
-      <CBCStateEX/>
+     <UserEffectEX/>
     </div>
   )
 }
-export default App;
+
